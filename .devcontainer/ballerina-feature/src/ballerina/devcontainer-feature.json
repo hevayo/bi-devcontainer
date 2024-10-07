@@ -1,0 +1,24 @@
+{
+    "id": "ballerina",
+    "version": "1.0.0",
+    "name": "Ballerina",
+    "description": "Installs Ballerina programming language",
+    "documentationURL": "https://ballerina.io",
+    "install": {
+        "scripts": {
+            "shell": "install.sh"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "extensions.autoUpdate": false,
+                "extensions.ignoreRecommendations": true
+            },
+            "extensions": [
+                "/opt/ballerina-5.0.0.vsix",
+                "/opt/bi-extension-0.0.5.vsix"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Ballerina DevContainer Test",
+    "build": {
+        "dockerfile": "Dockerfile", // Optional: If using a Dockerfile, or remove this if using the default image
+        "context": ".." // Adjust to point to your project root
+    },
+    "features": {
+        "./ballerina-feature/src/ballerina": {
+            "version": "1.0.0"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "extensions.autoUpdate": false,
+                "extensions.ignoreRecommendations": true
+            }
+        }
+    },
+    "postCreateCommand": "bal version", // Verifies installation of Ballerina
+}
