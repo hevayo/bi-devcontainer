@@ -22,6 +22,9 @@ This repository is configures with a dev container that has Ballerina Integrator
 
 3. When prompted, click "Reopen in Container" or use the command palette (F1) and select "Remote-Containers: Reopen in Container".
 
+![Ballerina Integrator](docs/images/open_in_dev_container.png)
+
+
 4. Wait for the container to build and start. This may take a few minutes the first time.
 
 5. Once the container is ready, you'll have a fully configured Ballerina Integrator development environment.
@@ -29,6 +32,8 @@ This repository is configures with a dev container that has Ballerina Integrator
 ## Trying it out
 
 1. Click on the Ballerina Integrator icon on the left side of the screen to open the Ballerina Integrator view.
+
+![Ballerina Integrator](docs/images/bi_activity.png)
 
 2. Create a new Ballerina Integrator project by clicking on the "Create Project" button and provide a name for the project and location to create the project.
 
